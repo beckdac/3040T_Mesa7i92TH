@@ -1,0 +1,19 @@
+<pyvcp>
+
+<button>
+        <relief>RAISED</relief>
+        <bd>3</bd>
+        <halpin>"ext-on"</halpin>
+        <text>"Extractor On"</text>
+        <font>("Helvetica",12)</font>
+</button>
+
+<button>
+        <relief>RAISED</relief>
+        <bd>4</bd>
+        <halpin>"ext-off"</halpin>
+        <text>"Extractor Off"</text>
+        <font>("Helvetica",12)</font>
+</button>
+
+</pyvcp>

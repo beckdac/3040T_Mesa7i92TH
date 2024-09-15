@@ -1,0 +1,9 @@
+# Include your custom_postgui HAL commands here
+# This file will not be overwritten when you run PNCconf again
+#
+#
+#set up the extractor buttons
+# ON
+net exctractoron halui.mdi-command-00 <= pyvcp.ext-on
+# OFF
+net exctractoroff halui.mdi-command-01 <= pyvcp.ext-off
