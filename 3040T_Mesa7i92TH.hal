@@ -36,7 +36,7 @@ net machine-is-enabled  =>     hm2_7i92.0.gpio.001.out
 # external input signals
 
 # --- PROBE-IN ---
-net probe-in     <=  hm2_7i92.0.gpio.003.in_not
+#net probe-in     <=  hm2_7i92.0.gpio.003.in_not
 
 # --- ESTOP-EXT ---
 net estop-ext     <=  hm2_7i92.0.gpio.013.in
@@ -302,7 +302,7 @@ net coolant-flood     <=  iocontrol.0.coolant-flood
 
 #  ---probe signal---
 
-net probe-in     =>  motion.probe-input
+#net probe-in     =>  motion.probe-input
 
 #  ---motion control signals---
 
